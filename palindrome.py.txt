@@ -1,0 +1,11 @@
+for i in range(999,100,-1):
+for j in range(999,100,-1):
+a=i*j
+s=0
+c=a
+while(c>0):
+b=c%10
+s=(s*10)+b
+c=c//10
+if s==a:
+print(i,j,s)
