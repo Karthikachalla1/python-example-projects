@@ -1,7 +1,9 @@
+s=0
 a=0
-b=0
 for i in range(1,101,1):
-a=a+(i*i)
+  s=s+(i*i)
+print(s)
 for j in range(1,101,1):
-b=b+j
-print((b+b)-a)
+  a=a+j
+print(a*a)
+print(a*a-s)

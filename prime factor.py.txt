@@ -1,9 +1,9 @@
 import math
-for i in range(int(math.sqrt(600851475143))1,-1):
-if 600851475143 %i==0:
-flag=false
-for j in range(int(math.sqrt(i))1,-1):
-if (i%y==0):
-flag=true
-print(i)
-break
+ for i in range(int(math.sqrt(600851475143)),1,-1):
+    if 600851475143 %i==0:
+      flag=False
+       for j in range(int(math.sqrt(i)),1,-1):
+          if (i%y==0):
+          flag=True
+           print(i)
+             break
